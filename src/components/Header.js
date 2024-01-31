@@ -35,7 +35,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/hotels"
+                to="/"
                 className={activeLink === 'Home' ? 'activeLink nav-links' : 'nav-links'}
                 onMouseEnter={() => handleMouseEnter('Home')}
                 onClick={handleClick}
@@ -81,7 +81,7 @@ function NavBar() {
             <li className="nav-item">
             <NavLink
                 exact
-                to="/"
+                to="/login"
                 className={activeLink === 'Login' ? 'activeLink nav-links' : 'nav-links'} 
                 onMouseEnter={() => handleMouseEnter('Login')}
                 onClick={handleClick}
