@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root{
+    --color-131921: #131921;
+    --color-3b4149: #3b4149;
+    --color-febd69: #febd69;
+    --color-232f3e: #003b95;
+    --color-f50a0a: #f50a0a;
+    --color-bf4800: #bf4800;
+    --color-0dcaf0: #0dcaf0;
+    --color-f5f5f7: #f5f5f7;
+    --color-ededed: #ededed;
+    --color-131921: #003b95;
+    --color-1c1c1b:#1c1c1b;
   }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  font-family: 'Abel',sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a{
+    text-decoration: none;
+    display: inline-block;
   }
-  to {
-    transform: rotate(360deg);
+
+  .gap-10{
+    gap:10px;
   }
-}
+  
+  .grp-6{
+    width: 49%;
+  }
+  
+  .gap-12{
+    width: 100%;
+  }
+  
+  li{
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .gap-15{
+    gap:15px;
+  }
+  
+  .gap-30{
+    gap: 30px;
+  }
+  
+
+/* Footer Starts Here */
+footer{
+    background-color: var(--color-232f3e);
+    border-top: 1px solid rgba(255,255,255,0.8);
+  }
+  
+  
+  footer .input-group span{
+    background: var(--color-131921);
+    color: white;
+    cursor: pointer;
+  
+  }
+/* Footer Ends Here */
