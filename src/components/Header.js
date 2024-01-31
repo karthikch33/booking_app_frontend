@@ -25,7 +25,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <span>Booking.Com</span>
+            <span>BookVersify</span>
             <span className="icon">
               {/* <CodeIcon /> */}
             </span>
